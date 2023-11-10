@@ -1,23 +1,62 @@
 * {
-  margin: 0;
+  margin: auto;
+  max-width: 768px;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(231, 229, 205);
+  background-color: rgb(250, 250, 248);
 }
 
 .navigation {
-  height: 50px;
+  height: 20vh;
   display: flexbox;
   justify-content: center;
   align-items: center;
 }
+.navigation .logo {
+  max-width: 50%;
+}
 .navigation .Login-Button {
   display: block;
   width: 100px;
-  background-color: white;
+  border: solid;
   text-align: center;
   padding: 10px 20px;
   border-radius: 10px;
-  color: navy;
+  color: rgb(57, 65, 102);
+}
+
+.subheading {
+  text-align: center;
+  color: rgb(57, 65, 102);
+}
+
+.Button {
+  display: block;
+  width: 33%;
+  background-color: rgb(57, 65, 102);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.card-left {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  text-align: left;
+  padding: 20px;
+  color: midnightblue;
+}
+.card-left .card-left img {
+  text-align: left;
+}
+
+.card-right {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  text-align: right;
+  padding: 20px;
+  color: midnightblue;
 }/*# sourceMappingURL=challenge-2-style.css.map */
