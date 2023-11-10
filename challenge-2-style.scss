@@ -1,23 +1,38 @@
 @use "./challenge-2-variables" as *;
-
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 768px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
 .navigation {
-    height: 20vh;
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 
-    .logo{
-        max-width: 50%;
-    }
-    .Login-Button {
+    .login-button {
         display: block;
         width: 100px;
         border: solid;
         text-align: center;
-        padding: 10px 20px;
+        padding: 20px 20px 20px 20px;
         border-radius: 10px;
         color: $color-primary;
     }
+    .Page-Name{
+        display: block;
+        width: 100px;
+        border: solid;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        color: $color-primary; 
+    }
+}
+.div{
+    border:20px 20px 20px 20px;
 }
 .subheading{
     text-align: center;
@@ -50,4 +65,8 @@
     text-align: right;
     padding: 20px;
     color: midnightblue;
-    }
+}
+.CTA{
+    color: $color-secondary;
+    text-align: center;
+}
