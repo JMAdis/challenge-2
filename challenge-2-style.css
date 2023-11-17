@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: auto;
@@ -25,10 +26,15 @@
 .navigation .Page-Name {
   display: block;
   width: 100px;
+  text-align: left;
   border: solid;
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
   color: rgb(57, 65, 102);
+}
+
+h1 {
+  color: rgb(26, 185, 241);
 }
 
 .div {

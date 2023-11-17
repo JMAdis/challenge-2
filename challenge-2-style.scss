@@ -1,35 +1,41 @@
 @use "./challenge-2-variables" as *;
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: auto;
-    max-width: 768px;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: whitesmoke;
-}
-.navigation {
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
 
-    .login-button {
-        display: block;
-        width: 100px;
-        border: solid;
-        text-align: center;
-        padding: 20px 20px 20px 20px;
-        border-radius: 10px;
-        color: $color-primary;
+
+    *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: whitesmoke;
     }
-    .Page-Name{
-        display: block;
-        width: 100px;
-        border: solid;
-        padding: 20px 20px 20px 20px;
-        border-radius: 10px;
-        color: $color-primary; 
+    .navigation {
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .login-button {
+            border: solid;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+            color: $color-primary;
+        }
+        .Page-Name{
+            text-align: center;
+            border: solid;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+            color: $color-primary; 
+        }
     }
+h1{
+    color: $color-secondary
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .div{
     border:20px 20px 20px 20px;
@@ -38,7 +44,7 @@
     text-align: center;
     color: $color-primary;
 }
-.Button {
+.button{
     display: block;
     width: 33%;
     background-color: $color-primary;
@@ -70,3 +76,4 @@
     color: $color-secondary;
     text-align: center;
 }
+@media screen and (min-width:768px){}
